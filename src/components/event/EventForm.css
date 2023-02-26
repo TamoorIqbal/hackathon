@@ -1,0 +1,35 @@
+@media (min-width: 768px) {
+    .container {
+      max-width: 800px;
+    }
+  }
+  
+  .containerForm {
+    background: #f6f6f6;
+    color: black;
+    margin:3%;
+    
+  }
+  
+  .form1 {
+    background: #fff;
+   
+    padding: 2.00em;
+  }
+  .row{
+    margin: 0px !important;
+  }
+  .form-group{
+    margin-bottom: 12px;
+  }
+  .btn{
+    background-color: rgb(162, 162, 246);
+    color: black;
+  }
+  .btn:hover{
+    background-color: rgb(58, 58, 172);
+  
+  }
+  .form-control{
+    border-color: rgb(162, 162, 246);
+  }

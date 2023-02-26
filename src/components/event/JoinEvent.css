@@ -1,0 +1,100 @@
+.content-container {
+    border: solid 2px #181818;
+    padding: 1em;
+    max-width: 80%;
+    margin: 20px auto;
+}
+
+.artist-photo {
+    max-width: 90%;
+    display: block;
+    margin-top: 0.787em;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.artist-info {
+    text-transform: uppercase;
+    font-size: 40px;
+    opacity: 0.75;
+    text-align: center;
+    font-family: AmericanTypewriter-CondensedBold;
+    margin-top: 1px;
+}
+
+.supporting-artists {
+    text-transform: uppercase;
+    text-align: center;
+    opacity: 0.75;
+    font-size: 30px;
+    font-family: AmericanTypewriter-CondensedBold;
+    margin-top: -55px;
+}
+
+.guests {
+    font-family: AmericanTypewriter-CondensedBold;
+    font-size: 24px;
+    text-align: center;
+    opacity: 0.75;
+}
+
+.event-date {
+    font-family: AmericanTypewriter-CondensedBold;
+    font-size: 24px;
+    text-align: center;
+}
+
+.venue-details {
+    font-family: AmericanTypewriter-CondensedBold;
+    font-size: 24px;
+    display: flex;
+    justify-content: space-around;
+    margin-top: -42px;
+}
+
+
+
+.pricing {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.pricing li {
+    display: inline-block;
+}
+
+.more-detail {
+    font-size: 10px;
+    display: flex;
+    padding-left: 8px;
+}
+
+.day-of-show-price {
+    margin-left: 21px;
+}
+
+.box-office {
+    font-size: 10px;
+    display: flex;
+    padding-left: 8px;
+    position: relative;
+    bottom: 21px;
+    justify-content: space-between;
+}
+
+.parking-info {
+    position: relative;
+    bottom: 12px;
+    margin-left: 21px;
+}
+
+.production-team {
+    font-size: 12px;
+    font-style: italic;
+    float: right;
+    position: relative;
+    bottom: 29px;
+    margin-right: 10px;
+    font-weight: 600;
+}

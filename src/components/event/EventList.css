@@ -1,0 +1,67 @@
+/* @import url('https://fonts.googleapis.com/css?family=Lato:300,400,700,900'); */
+
+.container12{
+  /* background-color: #fcfcfc; */
+  font-family: 'Lato', sans-serif;
+  padding: 0 3%;
+}
+
+.event-header {
+  text-align: center;
+  padding: 1em;
+}
+
+.event-header h1 {
+  font-size: 2.5em;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+
+.event-item {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  padding: 1em ;
+  border-radius: 2px;
+  box-shadow: 0px 2px 2px 0 rgba(0, 0, 0, 0.14);
+  margin-bottom: 1em;
+}
+
+.event-desc {
+  text-align: center;
+}
+
+.event-date {
+  text-align: center;
+  border-right: 1px dashed #ccc;
+  margin-bottom: 1em;
+}
+
+.event-date>h1 {
+  font-size: 6em;
+  margin: 0 auto;
+  font-weight: 900;
+
+}
+
+.event-date>span {
+  font-size: 18px;
+}
+
+
+@media (min-width:768px) {
+
+  .event-date>h1 {
+    font-size: 5em;
+  }
+
+  .event-desc {
+    text-align: left;
+  }
+
+  .event-header>h1 {
+    font-size: 5em;
+  }
+
+
+
+}
